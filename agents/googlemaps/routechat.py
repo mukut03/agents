@@ -429,16 +429,16 @@ def main():
     sampled_points = sample_polyline(encoded_polyline, method="interval", interval_km=25.0)
 
     output_file_path = 'sampled_points.json'
-    # with open(output_file_path, 'w') as f:
-    #     json.dump(sampled_points, f, indent=2)
+    with open(output_file_path, 'w') as f:
+        json.dump(sampled_points, f, indent=2)
 
     print(f"Sampled points saved to {output_file_path}")
     
     polyline_coords = polyline.decode(encoded_polyline)
     
     polyline_output_path = 'polyline_route.json'
-    # with open(polyline_output_path, 'w') as f:
-    #     json.dump(polyline_coords, f, indent=2)
+    with open(polyline_output_path, 'w') as f:
+        json.dump(polyline_coords, f, indent=2)
 
     print(f"Polyline saved to {polyline_output_path}")
     
@@ -449,8 +449,8 @@ def main():
     places_along_route = get_places_along_polyline(sampled_points, method="node", radius_m = 10000)
 
     places_output_path = 'places_along_route.json'
-    # with open(places_output_path, 'w') as f:
-    #     json.dump(places_along_route, f, indent=2)
+    with open(places_output_path, 'w') as f:
+        json.dump(places_along_route, f, indent=2)
 
     print(f"Places along route saved to {places_output_path}")
     
@@ -458,8 +458,8 @@ def main():
     features = get_natural_features_along_polyline(sampled_points, method="node", radius_m=2000)
 
     # Save to a JSON file
-    # with open("natural_features_along_route.json", "w") as f:
-    #     json.dump(features, f, indent=2)
+    with open("natural_features_along_route.json", "w") as f:
+        json.dump(features, f, indent=2)
 
     print("Natural features saved to natural_features_along_route.json")
 
