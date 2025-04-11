@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat with Your Route</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    #chat-container {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    #messages {
+      flex: 1;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    #input-box {
+      display: flex;
+    }
+    #input-box input {
+      flex: 1;
+      padding: 8px;
+    }
+    #input-box button {
+      padding: 8px;
+    }
+    #map {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <h3>Route Chat</h3>
+    <div id="messages"></div>
+    <div id="input-box">
+      <input type="text" id="user-input" placeholder="Ask something..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const typeColors = {
+      city: 'red',
+      town: 'orange',
+      village: 'yellow',
+      lake: 'blue',
+      river: 'blue',
+      water: 'blue',
+      wood: 'green',
+      peak: 'purple',
+      cliff: 'gray',
+      beach: 'beige',
+      valley: 'gray',
+      scrub: 'green',
+      wetland: 'teal'
+    };
+
+    async function loadJSON(path) {
+      const response = await fetch(path);
+      return response.json();
+    }
+
+    async function initMap() {
+      const polylineCoords = await loadJSON('polyline_route.json');
+      const places = await loadJSON('places_along_route.json');
+      const features = await loadJSON('natural_features_along_route.json');
+
+      const map = L.map('map').setView(polylineCoords[0], 7);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      const routeLine = L.polyline(polylineCoords, { color: 'black', weight: 4 }).addTo(map);
+      map.fitBounds(routeLine.getBounds());
+
+      function addMarkers(data) {
+        data.forEach(pt => {
+          const color = typeColors[pt.type] || 'gray';
+          L.circleMarker([pt.lat, pt.lon], {
+            radius: 6,
+            color: color,
+            fillOpacity: 0.9
+          })
+          .bindPopup(`${pt.name} (${pt.type})`)
+          .addTo(map);
+        });
+      }
+
+      addMarkers(places);
+      addMarkers(features);
+    }
+
+    initMap();
+
+    function sendMessage() {
+      const input = document.getElementById('user-input');
+      const messages = document.getElementById('messages');
+      const text = input.value.trim();
+      if (!text) return;
+      const userMsg = document.createElement('div');
+      userMsg.textContent = '> ' + text;
+      messages.appendChild(userMsg);
+
+      const reply = document.createElement('div');
+      reply.textContent = '🤖 Sorry, I’m just a demo for now.';
+      reply.style.marginLeft = '10px';
+      messages.appendChild(reply);
+
+      input.value = '';
+      messages.scrollTop = messages.scrollHeight;
+    }
+  </script>
+</body>
+</html>

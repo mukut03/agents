@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Grapevine Peak",
+    "type": "peak",
+    "lat": 34.9030292,
+    "lon": -118.9042655
+  },
+  {
+    "name": "Buena Vista Water Fountain",
+    "type": "water",
+    "lat": 37.7688806,
+    "lon": -122.4383405
+  },
+  {
+    "name": "Chab",
+    "type": "cliff",
+    "lat": 37.7314732,
+    "lon": -122.1287148
+  },
+  {
+    "name": "Alamo Heights",
+    "type": "peak",
+    "lat": 37.7757831,
+    "lon": -122.4347984
+  },
+  {
+    "name": "Hayes Hill",
+    "type": "peak",
+    "lat": 37.775968,
+    "lon": -122.4346201
+  },
+  {
+    "name": "Buena Vista Park",
+    "type": "wood",
+    "lat": 37.7683395,
+    "lon": -122.4411038
+  },
+  {
+    "name": "San Leandro Creek",
+    "type": "stream",
+    "lat": 37.7285405,
+    "lon": -122.1505586
+  },
+  {
+    "name": "Lake H",
+    "type": "water",
+    "lat": 37.6886301,
+    "lon": -121.8438215
+  },
+  {
+    "name": "Lake I",
+    "type": "water",
+    "lat": 37.6866865,
+    "lon": -121.8553762
+  },
+  {
+    "name": "unnamed",
+    "type": "river",
+    "lat": 37.0317448,
+    "lon": -120.9207466
+  },
+  {
+    "name": "unnamed",
+    "type": "water",
+    "lat": 37.7498131,
+    "lon": -121.5972097
+  },
+  {
+    "name": "Bull Creek Reservoir Branch",
+    "type": "stream",
+    "lat": 34.2977037,
+    "lon": -118.4893322
+  },
+  {
+    "name": "unnamed",
+    "type": "cliff",
+    "lat": 37.7653417,
+    "lon": -122.4372498
+  },
+  {
+    "name": "Burbank West Channel",
+    "type": "stream",
+    "lat": 34.1643119,
+    "lon": -118.3042494
+  },
+  {
+    "name": "Los Angeles River",
+    "type": "water",
+    "lat": 34.1536593,
+    "lon": -118.3051265
+  },
+  {
+    "name": "Delta-Mendota Canal",
+    "type": "water",
+    "lat": 37.1295868,
+    "lon": -120.9890771
+  },
+  {
+    "name": "Delta-Mendota Canal",
+    "type": "river",
+    "lat": 37.2408473,
+    "lon": -121.0773858
+  },
+  {
+    "name": "unnamed",
+    "type": "stream",
+    "lat": 36.8676475,
+    "lon": -120.7967417
+  },
+  {
+    "name": "Arroyo Vadoso",
+    "type": "stream",
+    "lat": 36.0947542,
+    "lon": -120.1317526
+  },
+  {
+    "name": "Arroyo Estrecho",
+    "type": "stream",
+    "lat": 35.9616248,
+    "lon": -119.9583145
+  },
+  {
+    "name": "Grapevine Creek",
+    "type": "stream",
+    "lat": 34.9031488,
+    "lon": -118.9229692
+  },
+  {
+    "name": "New Rim Ditch",
+    "type": "stream",
+    "lat": 35.1234278,
+    "lon": -119.073991
+  },
+  {
+    "name": "unnamed",
+    "type": "wetland",
+    "lat": 37.2414239,
+    "lon": -121.089098
+  },
+  {
+    "name": "Garzas Creek",
+    "type": "stream",
+    "lat": 37.2384947,
+    "lon": -121.0714714
+  },
+  {
+    "name": "Arroyo Hondo",
+    "type": "stream",
+    "lat": 36.4733421,
+    "lon": -120.4431323
+  },
+  {
+    "name": "Violin Canyon",
+    "type": "stream",
+    "lat": 34.5138607,
+    "lon": -118.646951
+  },
+  {
+    "name": "Gorman Creek",
+    "type": "stream",
+    "lat": 34.6976121,
+    "lon": -118.7936812
+  },
+  {
+    "name": "Marple Canyon",
+    "type": "stream",
+    "lat": 34.5299731,
+    "lon": -118.6479438
+  },
+  {
+    "name": "Grasshopper Canyon",
+    "type": "stream",
+    "lat": 34.5185848,
+    "lon": -118.6300411
+  },
+  {
+    "name": "Hirshfield Lateral",
+    "type": "stream",
+    "lat": 37.4501997,
+    "lon": -121.1517697
+  },
+  {
+    "name": "Hospital Creek",
+    "type": "stream",
+    "lat": 37.5918684,
+    "lon": -121.3647404
+  },
+  {
+    "name": "Salado Creek",
+    "type": "stream",
+    "lat": 37.4228041,
+    "lon": -121.1575731
+  },
+  {
+    "name": "Mountain House Creek",
+    "type": "stream",
+    "lat": 37.744249,
+    "lon": -121.5903955
+  },
+  {
+    "name": "Lone Tree Creek",
+    "type": "stream",
+    "lat": 37.6146564,
+    "lon": -121.3677572
+  },
+  {
+    "name": "Palomas Canyon",
+    "type": "stream",
+    "lat": 34.5316284,
+    "lon": -118.6685681
+  },
+  {
+    "name": "Arroyo Las Positas",
+    "type": "stream",
+    "lat": 37.6966585,
+    "lon": -121.8401694
+  },
+  {
+    "name": "Arroyo Mocho",
+    "type": "stream",
+    "lat": 37.6852402,
+    "lon": -121.8697541
+  },
+  {
+    "name": "Upper Elmhurst Creek",
+    "type": "stream",
+    "lat": 37.7451794,
+    "lon": -122.1373071
+  },
+  {
+    "name": "Tassajara Creek",
+    "type": "stream",
+    "lat": 37.713132,
+    "lon": -121.8758778
+  },
+  {
+    "name": "unnamed",
+    "type": "scrub",
+    "lat": 37.2402949,
+    "lon": -121.0783675
+  },
+  {
+    "name": "Flamingo Plaza",
+    "type": "water",
+    "lat": 37.7489755,
+    "lon": -122.1458289
+  },
+  {
+    "name": "Gibbon Island",
+    "type": "scrub",
+    "lat": 37.7496185,
+    "lon": -122.1460831
+  },
+  {
+    "name": "Ruth Asawa\u2019s San Francisco Fountain",
+    "type": "water",
+    "lat": 37.7888804,
+    "lon": -122.4070753
+  },
+  {
+    "name": "unnamed",
+    "type": "wood",
+    "lat": 37.7692362,
+    "lon": -122.4397539
+  },
+  {
+    "name": "Bee Canyon Creek",
+    "type": "stream",
+    "lat": 34.3055689,
+    "lon": -118.4997786
+  },
+  {
+    "name": "Los Angeles River",
+    "type": "river",
+    "lat": 34.1511728,
+    "lon": -118.3194118
+  },
+  {
+    "name": "Mission Creek",
+    "type": "water",
+    "lat": 37.7734401,
+    "lon": -122.3944261
+  },
+  {
+    "name": "Apple Canyon",
+    "type": "valley",
+    "lat": 34.6899597,
+    "lon": -118.7847752
+  },
+  {
+    "name": "California Aqueduct",
+    "type": "water",
+    "lat": 37.7204167,
+    "lon": -121.5255365
+  },
+  {
+    "name": "Chabot Spillway",
+    "type": "water",
+    "lat": 37.7293945,
+    "lon": -122.1234759
+  },
+  {
+    "name": "Foot pool/rocky stream",
+    "type": "water",
+    "lat": 37.7520223,
+    "lon": -122.1393319
+  },
+  {
+    "name": "Mission Creek",
+    "type": "river",
+    "lat": 37.7663481,
+    "lon": -122.4063757
+  },
+  {
+    "name": "Arroyo Dolores",
+    "type": "river",
+    "lat": 37.7613036,
+    "lon": -122.4287305
+  },
+  {
+    "name": "Panoche Creek",
+    "type": "stream",
+    "lat": 36.6769585,
+    "lon": -120.6030295
+  }
+]

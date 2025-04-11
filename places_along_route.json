@@ -1,0 +1,182 @@
+[
+  {
+    "name": "San Francisco",
+    "type": "city",
+    "lat": 37.7792588,
+    "lon": -122.4193286
+  },
+  {
+    "name": "Buttonwillow",
+    "type": "village",
+    "lat": 35.3997369,
+    "lon": -119.4741041
+  },
+  {
+    "name": "Brisbane",
+    "type": "town",
+    "lat": 37.687165,
+    "lon": -122.402794
+  },
+  {
+    "name": "Firestone Park",
+    "type": "village",
+    "lat": 33.9630705,
+    "lon": -118.232572
+  },
+  {
+    "name": "Ashland",
+    "type": "village",
+    "lat": 37.6946528,
+    "lon": -122.1138531
+  },
+  {
+    "name": "Mountain House",
+    "type": "town",
+    "lat": 37.7832614,
+    "lon": -121.542726
+  },
+  {
+    "name": "Lost Hills",
+    "type": "village",
+    "lat": 35.6163468,
+    "lon": -119.694342
+  },
+  {
+    "name": "Alameda",
+    "type": "city",
+    "lat": 37.7652076,
+    "lon": -122.241635
+  },
+  {
+    "name": "San Lorenzo",
+    "type": "village",
+    "lat": 37.6810422,
+    "lon": -122.1244088
+  },
+  {
+    "name": "Los Banos",
+    "type": "town",
+    "lat": 37.0592253,
+    "lon": -120.8505342
+  },
+  {
+    "name": "Dublin",
+    "type": "town",
+    "lat": 37.7021521,
+    "lon": -121.9357918
+  },
+  {
+    "name": "La Ca\u00f1ada Flintridge",
+    "type": "town",
+    "lat": 34.1998302,
+    "lon": -118.2005236
+  },
+  {
+    "name": "Pleasanton",
+    "type": "town",
+    "lat": 37.6624312,
+    "lon": -121.8746789
+  },
+  {
+    "name": "Gustine",
+    "type": "village",
+    "lat": 37.2577171,
+    "lon": -120.9988154
+  },
+  {
+    "name": "Cherryland",
+    "type": "village",
+    "lat": 37.6793756,
+    "lon": -122.1032971
+  },
+  {
+    "name": "San Fernando",
+    "type": "town",
+    "lat": 34.28497,
+    "lon": -118.437652
+  },
+  {
+    "name": "Lebec",
+    "type": "village",
+    "lat": 34.8416435,
+    "lon": -118.8648189
+  },
+  {
+    "name": "Patterson",
+    "type": "town",
+    "lat": 37.471623,
+    "lon": -121.1296949
+  },
+  {
+    "name": "Maywood",
+    "type": "town",
+    "lat": 33.9866807,
+    "lon": -118.185349
+  },
+  {
+    "name": "San Leandro",
+    "type": "town",
+    "lat": 37.7249296,
+    "lon": -122.1560768
+  },
+  {
+    "name": "Hayward",
+    "type": "city",
+    "lat": 37.6688205,
+    "lon": -122.080796
+  },
+  {
+    "name": "Castro Valley",
+    "type": "town",
+    "lat": 37.6945519,
+    "lon": -122.0857432
+  },
+  {
+    "name": "Huntington Park",
+    "type": "town",
+    "lat": 33.9805731,
+    "lon": -118.2252073
+  },
+  {
+    "name": "Val Verde",
+    "type": "village",
+    "lat": 34.4474359,
+    "lon": -118.663508
+  },
+  {
+    "name": "Los Angeles",
+    "type": "city",
+    "lat": 34.0536909,
+    "lon": -118.242766
+  },
+  {
+    "name": "Glendale",
+    "type": "city",
+    "lat": 34.1469416,
+    "lon": -118.2478471
+  },
+  {
+    "name": "Vernon",
+    "type": "town",
+    "lat": 34.007135,
+    "lon": -118.22525
+  },
+  {
+    "name": "Burbank",
+    "type": "city",
+    "lat": 34.1812089,
+    "lon": -118.307201
+  },
+  {
+    "name": "Commerce",
+    "type": "town",
+    "lat": 34.003218,
+    "lon": -118.1541961
+  },
+  {
+    "name": "Livermore",
+    "type": "city",
+    "lat": 37.6820583,
+    "lon": -121.768053
+  }
+]
